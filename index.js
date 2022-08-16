@@ -1,11 +1,23 @@
 document.querySelectorAll("button");
 
 var no_of_buttons=document.querySelectorAll(".drum").length;
+
+// detecting button press
 for(var i=0;i<no_of_buttons;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){;
 
     var buttonInnerHTML=this.innerHTML;
-    switch(buttonInnerHTML){
+    makesound(buttonInnerHTML)
+})}
+
+// detecting keyboardpress
+document.addEventListener("keypress",function(event){
+    // console.log(event);
+    makesound(event.key);
+});
+
+function makesound(key){
+    switch(key){
         case'a':
             var audio=new Audio("sounds/0.mp3");
             audio.play();
@@ -44,9 +56,4 @@ for(var i=0;i<no_of_buttons;i++){
         default:
             console.log(buttonInnerHTML);
     }
-})}
-
-document.addEventListener("keypress",function(event){
-    console.log(event);
-    console.log(event.style.color="darkblue");
-})
+}
