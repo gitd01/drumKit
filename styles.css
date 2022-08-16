@@ -128,7 +128,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
-     text-shadow: 4px 4px 4px white;
+     text-shadow: 2px 2px 2px white, 0 0 1em rgb(24, 77, 105), 0 0 0.2em black;
 }
 body{
     background-image: url("drum_img/bgimg.png");
