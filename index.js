@@ -21,7 +21,7 @@ function makesound(key){
         case'a':
             var audio=new Audio("sounds/0.mp3");
             audio.play();
-            console.log(this.style.color="darkblue");
+            console.log(key.style.color="darkblue");
             break;
         case'b':
             var audio=new Audio("sounds/1.mp3");
