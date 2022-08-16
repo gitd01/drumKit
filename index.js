@@ -8,7 +8,7 @@ for(var i=0;i<no_of_buttons;i++){
 
     var buttonInnerHTML=this.innerHTML;
     makesound(buttonInnerHTML)
-})}
+});}
 
 // detecting keyboardpress
 document.addEventListener("keypress",function(event){
