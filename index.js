@@ -41,8 +41,8 @@ for(var i=0;i<no_of_buttons;i++){
             audio.play();
             console.log(this.style.color="darkblue");
             break;
-        default:
-            console.log(buttonInnerHTML);
+        // default:
+        //     console.log(buttonInnerHTML);
     }
 })}
 
