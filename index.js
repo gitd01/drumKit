@@ -9,11 +9,37 @@ document.querySelectorAll("button");
 
 var no_of_buttons=document.querySelectorAll(".drum").length;
 for(var i=0;i<no_of_buttons;i++){
-    document.querySelectorAll(".drum")[i].addEventListener("click",handleclick);
-}
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){;
 
-function handleclick(){
-    var sound_no=Math.floor(Math.random()*6)+1;
-     var audio=new Audio("sounds/"+sound_no+".mp3");
-     audio.play();
-}
+    var buttonInnerHTML=this.innerHTML;
+    switch(buttonInnerHTML){
+        case'a':
+            var audio=new Audio("sounds/0.mp3");
+            audio.play();
+            break;
+        case'b':
+            var audio=new Audio("sounds/1.mp3");
+            audio.play();
+            break;
+        case'c':
+            var audio=new Audio("sounds/2.mp3");
+            audio.play();
+            break;
+        case'd':
+            var audio=new Audio("sounds/3.mp3");
+            audio.play();
+            break;
+        case'e':
+            var audio=new Audio("sounds/4.mp3");
+            audio.play();
+            break;
+        case'f':
+            var audio=new Audio("sounds/5.mp3");
+            audio.play();
+            break;
+        case'g':
+            var audio=new Audio("sounds/6.mp3");
+            audio.play();
+            break;
+    }
+})}
