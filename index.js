@@ -14,6 +14,6 @@ for(var i=0;i<no_of_buttons;i++){
 
 function handleclick(){
     var sound_no=Math.floor(Math.random()*6)+1;
-     var audio=new Audio("sound/"+sound_no+".mp3");
+     var audio=new Audio("sounds/"+sound_no+".mp3");
      audio.play();
 }
