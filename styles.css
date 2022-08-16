@@ -31,6 +31,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .b{
     background-image: url("drum_img/b.jpg") ;
@@ -44,6 +45,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .c{
     background-image: url("drum_img/c.jpg") ;
@@ -57,6 +59,7 @@ footer{
      margin: 200px 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .d{
     background-image: url("drum_img/d.png") ;
@@ -70,6 +73,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .f{
     background-image: url("drum_img/f.jpg") ;
@@ -83,6 +87,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .g{
     background-image: url("drum_img/g.jpg") ;
@@ -96,6 +101,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 .e{
     background-image: url("drum_img/e.jpg") ;
@@ -109,6 +115,7 @@ footer{
      margin: 100px 100px;
      cursor: pointer;
      border-color: brown;
+     border-width: 10px;
 }
 body{
     background-image: url("drum_img/bgimg.png");
