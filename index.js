@@ -39,10 +39,10 @@ for(var i=0;i<no_of_buttons;i++){
         case'g':
             var audio=new Audio("sounds/6.mp3");
             audio.play();
-            console.log(this.style.color="darkblue");
+            //console.log(this.style.color="darkblue");
             break;
-        // default:
-        //     console.log(buttonInnerHTML);
+        default:
+            console.log(buttonInnerHTML);
     }
 })}
 
