@@ -16,8 +16,14 @@ h1{
 }
 footer{
     text-align: center;
-    line-height: 10rem;
+    line-height: 2rem;
     font-size: large;
+    background-color: brown;
+    display: inline-block;
+    margin-left: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
 }
 .a{
     background-image: url("drum_img/a.jpg") ;
@@ -32,6 +38,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .b{
     background-image: url("drum_img/b.jpg") ;
@@ -46,6 +53,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .c{
     background-image: url("drum_img/c.jpg") ;
@@ -60,6 +68,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .d{
     background-image: url("drum_img/d.png") ;
@@ -74,6 +83,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .f{
     background-image: url("drum_img/f.jpg") ;
@@ -88,6 +98,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .g{
     background-image: url("drum_img/g.jpg") ;
@@ -102,6 +113,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 .e{
     background-image: url("drum_img/e.jpg") ;
@@ -116,6 +128,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
+     text-shadow: 4px 4px 4px white;
 }
 body{
     background-image: url("drum_img/bgimg.png");
