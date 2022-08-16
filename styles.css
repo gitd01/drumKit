@@ -38,7 +38,7 @@ footer{
      cursor: pointer;
      border-color: brown;
      border-width: 10px;
-     text-shadow: 4px 4px 8px white;
+     text-shadow: 4px 4px 4px white;
 }
 .b{
     background-image: url("drum_img/b.jpg") ;
