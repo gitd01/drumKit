@@ -8,6 +8,7 @@ for(var i=0;i<no_of_buttons;i++){
 
     var buttonInnerHTML=this.innerHTML;
     makesound(buttonInnerHTML)
+    buttonAnimation(buttonInnerHTML);
 });}
 
 // detecting keyboardpress
@@ -49,4 +50,9 @@ function makesound(key){
         default:
             console.log(buttonInnerHTML);
     }
+}
+
+function buttonAnimation(currentKey){
+    var activeButton=document.querySelector("."+currentKey);
+    activeButton.classList.add("pressed");
 }
