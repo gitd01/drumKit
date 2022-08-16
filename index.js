@@ -15,6 +15,7 @@ for(var i=0;i<no_of_buttons;i++){
 document.addEventListener("keypress",function(event){
     // console.log(event);
     makesound(event.key);
+    buttonAnimation(event.key);
 });
 
 function makesound(key){
@@ -55,4 +56,7 @@ function makesound(key){
 function buttonAnimation(currentKey){
     var activeButton=document.querySelector("."+currentKey);
     activeButton.classList.add("pressed");
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    }, 100);
 }
